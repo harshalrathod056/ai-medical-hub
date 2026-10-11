@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MediVision AI | Medical Report Analysis Hub</title>
+    <meta
+      name="description"
+      content="AI-powered medical report and analysis hub for patients, doctors, and clinics."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar container">
+        <div class="logo-wrap">
+          <div class="logo-mark">+</div>
+          <span>MediVision AI</span>
+        </div>
+        <nav class="main-nav">
+          <a href="#features">Features</a>
+          <a href="#dashboard">Dashboard</a>
+          <a href="#analysis">Analysis</a>
+          <a href="#pricing">Pricing</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="btn btn-light">Login</button>
+          <button class="btn btn-primary">Get Started</button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero container">
+          <div class="hero-copy">
+            <span class="eyebrow">AI-powered healthcare intelligence</span>
+            <h1>Analyze medical reports in minutes with confidence.</h1>
+            <p>
+              Upload lab results, prescriptions, scans, and health history to
+              get intelligent summaries, risk signals, trend analysis, and next-step
+              recommendations for better care decisions.
+            </p>
+            <div class="cta-row">
+              <button class="btn btn-primary">Try Demo</button>
+              <button class="btn btn-secondary">Book a Demo</button>
+            </div>
+            <div class="trust-row">
+              <div>
+                <strong>12k+</strong>
+                <span>Reports analyzed</span>
+              </div>
+              <div>
+                <strong>94%</strong>
+                <span>Faster triage</span>
+              </div>
+              <div>
+                <strong>24/7</strong>
+                <span>Medical insight</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="report-card glass">
+              <div class="card-header">
+                <div>
+                  <p class="muted">Latest report</p>
+                  <h3>Blood Panel Overview</h3>
+                </div>
+                <span class="status status-good">Normal</span>
+              </div>
+
+              <div class="report-metrics">
+                <div>
+                  <label>Hemoglobin</label>
+                  <strong>13.4 g/dL</strong>
+                </div>
+                <div>
+                  <label>Cholesterol</label>
+                  <strong>182 mg/dL</strong>
+                </div>
+                <div>
+                  <label>Glucose</label>
+                  <strong>96 mg/dL</strong>
+                </div>
+              </div>
+
+              <div class="mini-chart">
+                <span style="height: 30%"></span>
+                <span style="height: 45%"></span>
+                <span style="height: 52%"></span>
+                <span style="height: 68%"></span>
+                <span style="height: 60%"></span>
+                <span style="height: 75%"></span>
+                <span style="height: 88%"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats-bar container">
+          <div class="stat-box">
+            <span class="stat-icon">🧪</span>
+            <div>
+              <strong>Labs & Diagnostics</strong>
+              <small>Multi-format reports</small>
+            </div>
+          </div>
+          <div class="stat-box">
+            <span class="stat-icon">🩺</span>
+            <div>
+              <strong>Doctor Review</strong>
+              <small>Clinical recommendation</small>
+            </div>
+          </div>
+          <div class="stat-box">
+            <span class="stat-icon">📈</span>
+            <div>
+              <strong>Trend Analysis</strong>
+              <small>Track health insights</small>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="features container section-space">
+          <div class="section-heading">
+            <span class="eyebrow">Why choose MediVision AI</span>
+            <h2>Built for smarter clinical decisions</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card glass">
+              <div class="icon-box cyan">📄</div>
+              <h3>Smart Report Upload</h3>
+              <p>Upload PDFs, images, lab results, and scanned prescriptions in one place.</p>
+            </article>
+
+            <article class="feature-card glass">
+              <div class="icon-box green">🧠</div>
+              <h3>AI Clinical Summary</h3>
+              <p>Instantly extract findings, risks, and key medical observations from data.</p>
+            </article>
+
+            <article class="feature-card glass">
+              <div class="icon-box purple">📊</div>
+              <h3>Trend Tracking</h3>
+              <p>Compare health metrics over time and visualize changes in your patient history.</p>
+            </article>
+
+            <article class="feature-card glass">
+              <div class="icon-box orange">🚨</div>
+              <h3>Risk Monitoring</h3>
+              <p>Highlight urgent abnormalities and severe patterns for faster intervention.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="dashboard" class="dashboard container section-space">
+          <div class="section-heading left">
+            <span class="eyebrow">Unified dashboard</span>
+            <h2>Everything a patient and doctor need in one platform</h2>
+          </div>
+
+          <div class="dashboard-grid">
+            <div class="dashboard-main glass">
+              <div class="patient-header">
+                <div>
+                  <p class="muted">Patient overview</p>
+                  <h3>Priya Sharma</h3>
+                </div>
+                <span class="status status-warning">Watchlist</span>
+              </div>
+
+              <div class="patient-stats">
+                <div>
+                  <label>Heart rate</label>
+                  <strong>78 bpm</strong>
+                </div>
+                <div>
+                  <label>Blood pressure</label>
+                  <strong>128/82</strong>
+                </div>
+                <div>
+                  <label>Oxygen</label>
+                  <strong>98%</strong>
+                </div>
+              </div>
+
+              <div class="chart-panel">
+                <div class="chart-lines">
+                  <span style="--h: 40%"></span>
+                  <span style="--h: 55%"></span>
+                  <span style="--h: 60%"></span>
+                  <span style="--h: 50%"></span>
+                  <span style="--h: 80%"></span>
+                  <span style="--h: 90%"></span>
+                  <span style="--h: 75%"></span>
+                </div>
+              </div>
+            </div>
+
+            <aside class="sidebar glass">
+              <div class="summary-card">
+                <p class="muted">AI summary</p>
+                <ul>
+                  <li>Hemoglobin remains stable</li>
+                  <li>Blood sugar trending upward</li>
+                  <li>Lipid profile requires review</li>
+                </ul>
+              </div>
+
+              <div class="summary-card alt">
+                <p class="muted">Doctor suggestion</p>
+                <strong>Repeat lipid panel in 2 weeks</strong>
+                <small>Recommended after reviewing dietary habits and exercise routine.</small>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="analysis" class="upload-section container section-space">
+          <div class="upload-box glass">
+            <div class="upload-copy">
+              <span class="eyebrow">AI report analyzer</span>
+              <h2>Upload a report and get actionable insights</h2>
+              <p>
+                Analyze reports from pathology labs, radiology centers, and doctor-prescribed
+                checks. Get a clear summary and evidence-backed recommendations.
+              </p>
+            </div>
+
+            <div class="upload-panel">
+              <label class="dropzone" for="reportFile">
+                <input id="reportFile" type="file" accept=".pdf,.png,.jpg,.jpeg" />
+                <div class="drop-inner">
+                  <span class="big-icon">⬆️</span>
+                  <strong>Drag & drop report</strong>
+                  <small>or click to browse</small>
+                </div>
+              </label>
+
+              <div class="file-meta">
+                <span id="file-name">No file selected</span>
+                <button id="analyzeBtn" class="btn btn-primary">Analyze Report</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="results container section-space">
+          <div class="section-heading left">
+            <span class="eyebrow">Report insights</span>
+            <h2>AI-generated medical interpretation</h2>
+          </div>
+
+          <div class="result-grid glass">
+            <div class="result-block">
+              <p class="muted">Summary</p>
+              <h3 id="summaryText">Lab values are generally within the expected range, with mild elevation in cholesterol and a gradual increase in blood glucose trend over the last 3 months.</h3>
+            </div>
+
+            <div class="risk-box">
+              <p class="muted">Risk level</p>
+              <strong id="riskLevel">Moderate</strong>
+              <small id="riskNote">Requires lifestyle and dietary review.</small>
+            </div>
+
+            <div class="result-block">
+              <p class="muted">Recommendations</p>
+              <ul id="recommendations">
+                <li>Follow up with physician in 2 weeks</li>
+                <li>Repeat lipid profile and fasting glucose</li>
+                <li>Improve hydration and maintain balanced diet</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="timeline container section-space">
+          <div class="section-heading left">
+            <span class="eyebrow">Clinical workflow</span>
+            <h2>From upload to actionable care guidance</h2>
+          </div>
+
+          <div class="timeline-grid">
+            <div class="timeline-item">
+              <span class="step-number">01</span>
+              <h3>Upload report</h3>
+              <p>Securely upload PDFs, scan images, and lab documents.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="step-number">02</span>
+              <h3>AI extraction</h3>
+              <p>OCR and intelligent parsing convert text into structured medical data.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="step-number">03</span>
+              <h3>Insight generation</h3>
+              <p>Get summaries, risk scoring, and doctor-friendly recommendations.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="step-number">04</span>
+              <h3>Care coordination</h3>
+              <p>Doctors and patients can act quickly on the generated guidance.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="pricing" class="pricing container section-space">
+          <div class="section-heading">
+            <span class="eyebrow">Flexible pricing</span>
+            <h2>Choose a plan that fits your care workflow</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <div class="price-card glass">
+              <h3>Starter</h3>
+              <div class="price">₹999<span>/month</span></div>
+              <ul>
+                <li>10 report analyses</li>
+                <li>Basic AI summaries</li>
+                <li>Health trend dashboard</li>
+              </ul>
+              <button class="btn btn-secondary">Get Started</button>
+            </div>
+
+            <div class="price-card featured glass">
+              <span class="featured-badge">Most popular</span>
+              <h3>Professional</h3>
+              <div class="price">₹2,499<span>/month</span></div>
+              <ul>
+                <li>Unlimited analyses</li>
+                <li>Doctor collaboration</li>
+                <li>Advanced risk scoring</li>
+              </ul>
+              <button class="btn btn-primary">Choose Plan</button>
+            </div>
+
+            <div class="price-card glass">
+              <h3>Enterprise</h3>
+              <div class="price">Custom</div>
+              <ul>
+                <li>Clinic integration</li>
+                <li>Compliance controls</li>
+                <li>Custom workflows</li>
+              </ul>
+              <button class="btn btn-secondary">Contact Sales</button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer container">
+        <div class="logo-wrap">
+          <div class="logo-mark">+</div>
+          <span>MediVision AI</span>
+        </div>
+        <p>AI-powered medical report and analysis hub.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ "},{
